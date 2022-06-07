@@ -45,7 +45,6 @@ li {
 
 
 .footer .contact{
-    font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
@@ -54,7 +53,6 @@ li {
 
 .adress {
     color: var(--white-text-color);
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;    
     letter-spacing: 0.03em;
@@ -88,6 +86,7 @@ li {
     letter-spacing: 0.06em;
     color: var(--white-text-color);
     background-color: var(--alternative-text-color);
+    cursor: pointer;
 }
 
 
@@ -119,7 +118,6 @@ li {
 
 
 .description {
-    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -142,7 +140,6 @@ li {
 
 
 .profession {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
@@ -199,6 +196,7 @@ li {
     line-height: 1,62;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 
@@ -219,7 +217,6 @@ li {
 
 
 .project-description {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
