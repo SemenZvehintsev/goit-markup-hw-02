@@ -6,6 +6,8 @@
     --secondary-background-color: #F5F4FA;
     --footer-background-color: #2F303A;
     --primary-backgound-color: #FFFFFF;
+    --contact-text-color: rgba(255, 255, 255, 0.6);
+    --button-background-color: #188CE8;
 }
 
 
@@ -42,7 +44,7 @@ li {
 .footer .contact{
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--contact-text-color);
 }
 
 
@@ -80,6 +82,12 @@ li {
     color: var(--white-text-color);
     background-color: var(--alternative-text-color);
     cursor: pointer;
+}
+
+
+.button:hover,
+.button:focus {
+    background-color: var(--button-background-color);
 }
 
 
