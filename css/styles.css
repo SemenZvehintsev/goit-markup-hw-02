@@ -210,4 +210,9 @@ link:focus {
     line-height: 1.88;
     letter-spacing: 0.03em;
     color: var(--primary-text-color);
-    }
+}
+
+
+.current-page {
+    color: var(--alternative-text-color);
+}
